@@ -5,7 +5,7 @@ result_array = []
 while i < array.length
   if yield(array[i]) == true
   result_array << array[i]
-end
+  end
   i +=1
 end
 result_array
